@@ -1,8 +1,10 @@
+import "../styles/index.css"
+
 const Index = () => {
   return (
     <>
       <header className="relative min-h-screen flex flex-col">
-        <div className="flex flex-col lg:flex-row gap-10 w-full lg:justify-between z-20 mt-32 lg:mt-40 px-10 lg:px-40">
+        <div className="flex flex-col lg:flex-row gap-10 w-full lg:justify-between z-20 mt-32 lg:mt-40 px-10 lg:px-40 appear">
           <h2 className="text-white text-6xl font-semibold lg:max-w-[900px]">Me dicen el titulo blabla sharala lasdfkjsjdfh</h2>
 
           <h2 className="text-white text-xl mt-5">Trust by
@@ -11,7 +13,7 @@ const Index = () => {
           </h2>
 
         </div>
-        <article className="hidden md:grid grid-cols-1 lg:grid-cols-4 mt-20 lg:mt-60 px-10 lg:px-40 z-20 gap-10">
+        <article className="hidden md:grid grid-cols-1 lg:grid-cols-4 mt-20 lg:mt-60 px-10 lg:px-40 z-20 gap-10 appear">
           <h3 className="text-white text-2xl text-center">facts</h3>
           <div className="">
             <p className="text-white">Un dispositivo super genial que hace cosas bien chidas, ahi me dicen que le pongo aqui ajajjajaj tiene que se una cantidad de texto aproximada</p>
@@ -31,7 +33,7 @@ const Index = () => {
         <img src="/hero-4.jpg" alt="hero" className="min-h-screen object-cover absolute" />
       </header >
 
-      <section className="md:hidden grid grid-cols-1 lg:grid-cols-4 mt-20 lg:mt-60 px-10 lg:px-40 z-20 gap-10">
+      <section className="md:hidden grid grid-cols-1 lg:grid-cols-4 mt-20 lg:mt-60 px-10 lg:px-40 z-20 gap-10 appear">
         <h3 className="text-white text-2xl text-center">facts</h3>
         <div className="">
           <p className="text-white">Un dispositivo super genial que hace cosas bien chidas, ahi me dicen que le pongo aqui ajajjajaj tiene que se una cantidad de texto aproximada</p>
