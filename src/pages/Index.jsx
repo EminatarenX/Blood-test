@@ -5,7 +5,7 @@ const Index = () => {
     <>
       <header className="relative min-h-screen flex flex-col">
         <div className="flex flex-col lg:flex-row gap-10 w-full lg:justify-between z-20 mt-32 lg:mt-40 px-10 lg:px-40 appear">
-          <h2 className="text-white text-6xl font-semibold lg:max-w-[900px]">Dispositivo de Determinación de Grupo Sanguíneo Rápido</h2>
+          <h2 className="text-white text-4xl lg:text-6xl font-semibold lg:max-w-[900px]">Dispositivo de Determinación de Grupo Sanguíneo Rápido</h2>
 
           <h2 className="text-white text-xl mt-5">Trust by
             <span className="text-rose-600"> 1000+ </span>
